@@ -1,4 +1,5 @@
-let arr = () =>{
-//     console.log("arrow function")
+function addNumbers(a,b){
+
+//     console.log(a+b)
 // }
-// arr()
+// addNumbers(10,20)

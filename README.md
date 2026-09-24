@@ -138,3 +138,15 @@ there are many type of functions
 6. call back :- call back function is a function which send as an argument to another function.
 
 7. nested function :- a function have another function is known as nested function.
+
+Hoisting :- when we call variable or function 
+
+TDZ :- it is time b/w initialization and creation is known as TDZ.
+
+interview ques
+
+functions and its types
+hoisting
+what is TDZ(temporal dead zone)
+what is Higher order function and callback
+what is arrow function and IIFE function
