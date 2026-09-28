@@ -45,5 +45,47 @@
 // arr7.splice(1,2,400,500)
 // console.log(arr7) 
 
-let arr8 = [1,2,3,4,1,5];
-console.log(arr8.indexOf(1,2))
+// let arr8 = [1,2,3,4,1,5];
+// console.log(arr8.indexOf(1,2))
+
+// spread operator : merge the array
+// let arr14 = [1,2,3,4,5];
+// let arr15 = [6,7,8];
+// let ress = [...arr14,...arr15];
+
+// console.log(ress);
+
+
+//rest operator: rest operator is used to collect multiple value 
+//when user does not know how many arguments it will take then at that time we use rest operator
+
+// function showDetails(name , ...hobbies){
+//     console.log(name);
+//     console.log(hobbies);
+// }
+// showDetails("Anubhav" , "football" , "cricket")
+
+// find : if the condition is true then it will give only one result 
+// give undefined if condition is not met.
+
+// let arr11 = [1,2,3,4,5];
+
+// let res  = arr11.find((num)=>{
+//     return (num>3);
+// })
+// console.log(res)
+
+// closure : inner function rememeber the var value of the outer function is known as closure.
+// its protect the sensitive data
+
+function outer (){
+
+    let msg = "hello";
+
+    function inner(){
+
+        console.log(msg)
+    }
+    inner();
+}
+outer()

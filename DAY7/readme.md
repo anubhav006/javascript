@@ -12,9 +12,19 @@ methods of array
 3.shift: delete the element at the first.
 4.unshift: add the element at the first.
 5.includes: checks the element is present or not.
-6.indexOf: it will give the index of the array
+6.indexOf: it will give the index of the array (kya chaiye or kaha se)
 
 7.slice: it will give the peice of array.
 slice (start index , last index) where last index exclude
 
 8.splice: it will modify the element of the array.
+splice (start index, delete count, adding element )
+
+iteration methods of array
+there are multiple iteration methods of array
+for each (index, value, array)
+map method
+filter
+reduce 
+some 
+every
