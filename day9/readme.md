@@ -6,3 +6,5 @@ let/var/const  obj={
     key2: value2,
     and so on...
 }
+
+this : this refers to the current object .
