@@ -30,3 +30,4 @@ console.log(s4.replace("hello" , "university"))
 
 let s5 = "Pradeep";
 console.log(s5.substring(2,5))
+
