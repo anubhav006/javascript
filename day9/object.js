@@ -67,3 +67,4 @@ let student = {
 console.log(student.address.state)
 console.log(student.address.city)
 console.log(student.name)
+console.log(student.name)
